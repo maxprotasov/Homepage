@@ -1,4 +1,11 @@
 @import "variables.scss";
 @import "mixins.scss";
-@import "global/normalize";
-@import "global/scaffolding";
+@import "global/normalize.scss";
+@import "global/scaffolding.scss";
+@import "blocks/user-block.scss";
+@import "blocks/help.scss";
+@import "blocks/login.scss";
+@import "blocks/logout.scss";
+@import "blocks/customer-care.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/burger.scss";

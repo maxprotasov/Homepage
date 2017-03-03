@@ -1,0 +1,12 @@
+
+.login__link {
+  display: block;
+  padding-left: 26px;
+  position: relative;
+  & svg {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    fill: #fff;
+  }
+}

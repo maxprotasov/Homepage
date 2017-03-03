@@ -1,0 +1,21 @@
+.help {
+  position: relative;
+}
+.help__sub-menu {
+  display: none;
+  position: absolute;
+  top: 32px;
+  width: 158px;
+  left: 0;
+  color: #151516;
+  background-color: #fff;
+}
+.help__text {
+  cursor: pointer;
+}
+.help__link {
+  display: block;
+  padding: 11px;
+  text-align: left;
+  border-bottom: 1px solid #151516;
+}
