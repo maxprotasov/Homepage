@@ -1,0 +1,24 @@
+body {
+  min-width: 320px;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 27px;
+  font-family: "Raleway" , Arial, sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+button,
+input {
+  font-family: inherit;
+}
+.btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: inherit;
+}
