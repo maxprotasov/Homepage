@@ -10,3 +10,13 @@ node_modules/
 Thumbs.db
 build/
 layouts/
+build/
+TEMP/
+
+PSD/
+ciagpekplgpbepdgggflgmahnjgiaced/
+
+*.zip
+*.crx
+*.pem
+update.xml

@@ -6,15 +6,15 @@
   align-items: center;
   justify-content: space-between;
   background-color: #000;
-  min-height: 96px;
   box-sizing: border-box;
-  padding: 0 30px;
 }
 .main-nav__menu {
   position: relative;
   width: 40px;
-  padding-right: 400px;
+  padding-left: 80px;
+  padding-right: 398px;
   height: 40px;
+  margin-left: 30px;
 }
 .main-nav__logo {
   height: 65px;
@@ -23,17 +23,31 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 430px;
+  width: 508px;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
   margin: 0;
+}
+.main-nav__item:last-child {
+  background-color: #59b7b3;
 }
 .main-nav__link {
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   color: #fff;
   font-size: 13px;
   line-height: 15.5px;
   font-weight: 600;
+  padding: 37px 16px;
+  &--basket {
+    font-size: 0;
+    padding: 37px 30px;
+  }
+}
+.main-nav__link-text {
+  padding-left: 10px;
 }
